@@ -5,13 +5,18 @@
       <map>
         <entry key="..\:/Master1/examen/BasicTour/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.275" />
         <entry key="..\:/Master1/examen/BasicTour/app/src/main/res/drawable/ic_launcher_background.xml" value="0.275" />
+        <entry key="..\:/Master1/examen/BasicTour/app/src/main/res/layout/activity_attraction_details.xml" value="0.22135416666666666" />
+        <entry key="..\:/Master1/examen/BasicTour/app/src/main/res/layout/activity_attraction_list.xml" value="0.36666666666666664" />
         <entry key="..\:/Master1/examen/BasicTour/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Master1/examen/BasicTour/app/src/main/res/layout/activity_login2.xml" value="0.20416666666666666" />
         <entry key="..\:/Master1/examen/BasicTour/app/src/main/res/layout/activity_main.xml" value="0.2006340579710145" />
+        <entry key="..\:/Master1/examen/BasicTour/app/src/main/res/layout/activity_sign_up.xml" value="0.20520833333333333" />
         <entry key="..\:/Master1/examen/BasicTour/app/src/main/res/layout/activity_splash.xml" value="0.1" />
         <entry key="..\:/Master1/examen/BasicTour/app/src/main/res/layout/fragment_first2.xml" value="0.25885416666666666" />
         <entry key="..\:/Master1/examen/BasicTour/app/src/main/res/layout/fragment_second.xml" value="0.2006340579710145" />
         <entry key="..\:/Master1/examen/BasicTour/app/src/main/res/layout/fragment_second2.xml" value="0.25885416666666666" />
         <entry key="..\:/Master1/examen/BasicTour/app/src/main/res/layout/fragment_second3.xml" value="0.2006340579710145" />
+        <entry key="..\:/Master1/examen/BasicTour/app/src/main/res/layout/list_attraction.xml" value="0.20989583333333334" />
       </map>
     </option>
   </component>

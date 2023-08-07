@@ -38,6 +38,7 @@ public class SecondFragment extends Fragment {
                 //        .navigate(R.id.action_SecondFragment_to_FirstFragment);
                 Intent intent = new Intent(getActivity(), LoginActivity2.class);
                 startActivity(intent);
+                getActivity().finish();
             }
         });
     }
