@@ -1,8 +1,10 @@
 package com.example.basictour;
 
+import android.app.Activity;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
         import android.view.View;
         import android.view.ViewGroup;
@@ -35,6 +37,14 @@ public class AttractionAdapter extends RecyclerView.Adapter<AttractionAdapter.At
 
         holder.ratingBarAttraction.setRating(attraction.getRating());
         holder.textViewAttractionName.setText(attraction.getName());
+
+        String packageName = context.getPackageName();
+
+        String resourceName = attraction.getBackgroundImageUrl().substring(0, attraction.getBackgroundImageUrl().indexOf("."));
+        Log.d("RES: ", resourceName);
+        int resourceId = ((Activity) context).getResources().getIdentifier(resourceName, "drawable", packageName);
+        Log.d("RES: ", "ID: "+resourceId);
+        holder.imageViewAttractionBackground.setImageResource(resourceId);
     }
 
     @Override

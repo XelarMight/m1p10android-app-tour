@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-medium"
         android:gravity="center"
-        android:text="S'inscrire'"
+        android:text="S'inscrire"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -46,7 +46,7 @@
         app:layout_constraintTop_toBottomOf="@+id/lab_sign_nom" />
 
     <TextView
-        android:id="@+id/lab_log_email"
+        android:id="@+id/lab_sign_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="388dp"
@@ -59,7 +59,7 @@
         app:layout_constraintTop_toBottomOf="@+id/edit_sign_nom" />
 
     <EditText
-        android:id="@+id/edit_log_email"
+        android:id="@+id/edit_sign_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
@@ -69,10 +69,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lab_log_email" />
+        app:layout_constraintTop_toBottomOf="@+id/lab_sign_email" />
 
     <TextView
-        android:id="@+id/lab_log_mdp"
+        android:id="@+id/lab_sign_mdp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -81,10 +81,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_log_email" />
+        app:layout_constraintTop_toBottomOf="@+id/edit_sign_email" />
 
     <EditText
-        android:id="@+id/edit_log_mdp"
+        android:id="@+id/edit_sign_mdp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
@@ -94,18 +94,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lab_log_mdp"
+        app:layout_constraintTop_toBottomOf="@+id/lab_sign_mdp"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
-        android:id="@+id/button_valider"
+        android:id="@+id/button_sign_valider"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="S'inscire"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_log_mdp" />
+        app:layout_constraintTop_toBottomOf="@+id/edit_sign_mdp" />
 
     <TextView
         android:id="@+id/textView5"

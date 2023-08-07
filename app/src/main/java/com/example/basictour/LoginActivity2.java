@@ -45,6 +45,6 @@ public class LoginActivity2 extends AppCompatActivity {
     public void startMainActivity() {
         Intent intent = new Intent(LoginActivity2.this, AttractionList.class);
         startActivity(intent);
-        finish();
+        //finish();
     }
 }

@@ -100,9 +100,10 @@ public class AttractionList extends AppCompatActivity implements AttractionAdapt
                                 float rating = new Double(attractionObject.getDouble("rating")).floatValue();
                                 double prix = attractionObject.getDouble("prix_entree");
                                 String heure = attractionObject.getString("heure_ouverture");
+                                String background = attractionObject.getString("background");
 
                                 Log.d("nom: ", name+" | "+description+" | "+rating+" | "+prix+" | "+heure);
-                                allAttractions.add(new Attraction(name, description, rating, prix, heure, ""));
+                                allAttractions.add(new Attraction(name, description, rating, prix, heure, background));
                             }
                             callback.onAttractionsFetched(allAttractions);
                         } catch (JSONException e) {
@@ -133,6 +134,7 @@ public class AttractionList extends AppCompatActivity implements AttractionAdapt
         newIntent.putExtra("rating", tempAttraction.getRating());
         newIntent.putExtra("prix", tempAttraction.getPrix());
         newIntent.putExtra("heure", tempAttraction.getHeure());
+        newIntent.putExtra("background", tempAttraction.getBackgroundImageUrl());
         startActivity(newIntent);
     }
 }
